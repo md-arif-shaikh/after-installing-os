@@ -12,6 +12,10 @@
 - [[#mu-the-maildir-utils-from-source][mu-the maildir-utils from source]]
 - [[#emacs-from-source][emacs from source]]
 - [[#slack-mattermost-teamspeak-etc][slack, mattermost, teamspeak etc]]
+  - [[#slack][slack]]
+  - [[#mattermost][mattermost]]
+  - [[#teamspeak3][teamspeak3]]
+  - [[#add-to-startup-applications][Add to startup applications]]
 - [[#miniconda][miniconda]]
 - [[#a-second-keyboard-input][a second keyboard input]]
 
@@ -34,6 +38,21 @@
 * mu-the maildir-utils from source
 * emacs from source
 * slack, mattermost, teamspeak etc
+** slack
+   - Ubuntu: Available in the software center
+   - Fedora: Download from the slack website and open with software center.
+** mattermost
+   - Ubuntu: Available in the software center.
+   - Fedora: Download from this link https://github.com/mattermost/desktop/releases/tag/v4.7.2 and open with software center.
+** teamspeak3
+   - Ubuntu: Available in the software center.
+   - Fedora:
+     - Download from this link https://www.teamspeak.com/en/downloads/
+     - Run it with ~bash~ ~bash TeamSpeak3-Client-linux_amd64-3.5.6.run~
+     - ~cd TeamSpeak3-Client-linux_amd64/~
+     - ~./ts3client_runscript.sh~ to launch teamspeak3.
+** Add to startup applications
+   Open ~tweaks~ and add ~slack~, ~mattermost~ etc using the ~startup applications~ menu.
 * miniconda
 * a second keyboard input
   In my case, this happens to be [[https://openbangla.github.io/][OpenBangla]]
