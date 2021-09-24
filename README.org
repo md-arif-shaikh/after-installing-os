@@ -1,0 +1,39 @@
+#+TITLE: Things to do after installing your operating system
+#+AUTHOR: Md Arif Shaikh
+#+EMAIL: arifshaikh.astro@gmail.com
+
+* Table of Contents :TOC:
+- [[#introduction][Introduction]]
+- [[#before-we-actually-start][Before we actually start]]
+- [[#generate-ssh-key-and-add-to-your-github][Generate ssh key and add to your github]]
+- [[#clone-your-config-repo-from-git][Clone your .config repo from git]]
+- [[#tweak-gnome][Tweak gnome]]
+- [[#dropbox][Dropbox]]
+- [[#mu-the-maildir-utils-from-source][mu-the maildir-utils from source]]
+- [[#emacs-from-source][emacs from source]]
+- [[#slack-mattermost-teamspeak-etc][slack, mattermost, teamspeak etc]]
+- [[#miniconda][miniconda]]
+- [[#a-second-keyboard-input][a second keyboard input]]
+
+* Introduction
+  This is an attempt to outline a process of building a complete working setup on a machine after installing a fresh operating system. Now this won't be exactly the same for all because we work on different things and our preferences are often not the same for completing the same task. For example, I will most be concerned about the setting up ~gnome~ desktop, but the outline should be similar for someone who wants to use, say, ~kde~ desktop. I use ~emacs~ for many of my daily task but others may prefer something else. However, the overall outline should work for anyone.
+* Before we actually start
+  Okay, so before we actually start installing our favourite tools, the very first thing would be to fire up your terminal and just get the latest updates so that your os is up to date. This is easy.
+  - ~sudo apt update~ on ubuntu will fetch all updates and ~sudo apt upgrade~ will then update these upgradable packages.
+  - For most os, one can also go to the software center where you can easily check for updates. In fact most os would ping you that updates are available and you will be able to get those updates to your os and other packages by just pressing the install button.
+* Generate ssh key and add to your github
+  - ~ssh-keygen~ would generate a pair of ssh key for adding to remote server or git repos.
+  - copy the public key for ~~/.ssh/*.pub~ and add it to your git repo.
+* Clone your .config repo from git
+* Tweak gnome
+  - Install ~gnome-tweaks~ using
+    - ~sudo apt install gnome-tweaks~
+    - ~sudo dnf install gnome-tweaks~
+  - Open ~tweaks~ and set background, theme, fonts, windows etc.
+* Dropbox
+* mu-the maildir-utils from source
+* emacs from source
+* slack, mattermost, teamspeak etc
+* miniconda
+* a second keyboard input
+  In my case, this happens to be [[https://openbangla.github.io/][OpenBangla]]
