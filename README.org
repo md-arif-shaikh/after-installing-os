@@ -20,6 +20,7 @@
 - [[#a-second-keyboard-input][a second keyboard input]]
 - [[#install-fish-shell][Install fish shell]]
 - [[#install-ruby-env][Install ruby env]]
+- [[#tex][TeX]]
 
 * Introduction
   This is an attempt to outline a process of building a complete working setup on a machine after installing a fresh operating system. Now this won't be exactly the same for all because we work on different things and our preferences are often not the same for completing the same task. For example, I will most be concerned about the setting up ~gnome~ desktop, but the outline should be similar for someone who wants to use, say, ~kde~ desktop. I use ~emacs~ for many of my daily task but others may prefer something else. However, the overall outline should work for anyone.
@@ -70,3 +71,7 @@ Instructions are [[https://fishshell.com/][here]].
 - Install ~ruby-build~: ~git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build~
 - Find latest stable ruby version: ~rbenv install -l~
 - Install a ruby version: ~rbenv install 3.2.2~
+
+* TeX
+Follow docs https://docs.fedoraproject.org/en-US/neurofedora/latex/
+~sudo dnf install texlive-scheme-full~
